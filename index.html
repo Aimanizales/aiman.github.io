@@ -27,10 +27,44 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700|Tajawal&display=swap" rel="stylesheet">
+
     <!-- Custom CSS -->
     <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        article {
+            margin-bottom: 50px;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+
+        .jumbotron {
+            background-image: url(images/work.jpg);
+            background-size: cover;
+        }
+
+        .jumbotron .content {
+            background-color: rgba(0, 0, 0, 0.9);
+            color: white;
+            padding: 20px;
+            max-width: 60%;
+        }
+
+        .jumbotron span {
+            color: crimson;
+        }
+
         .jumbotron img{
             width: 150px;
+        }
+
+        .arabic {
+            font-family: 'Tajawal', sans-serif;
         }
     </style>
 </head>
@@ -38,54 +72,99 @@
 
     <header class="jumbotron">
         <div class="container">
-                <img src="https://raw.githubusercontent.com/Aimanizales/aiman/master/images/Aiman_Abdel_Samad.jpg" alt="Aiman" class="img-thumbnail">
-                <h1 class="display-4">Aiman Abdel-Samad</h1>
-                <p class="lead">Graphic Designer, User Interface Developer</p>
-                <hr class="my-4">
-                <p>Working on my page... ^__^</p>
+            <img src="https://raw.githubusercontent.com/Aimanizales/aiman/master/images/Aiman_Abdel_Samad.jpg" alt="Aiman">
+            <div class="content">
+                <h1 class="display-4"><span>Aiman</span> Abdel-Samad</h1>
+                <h3 class="display-4 arabic"><span>ايمن</span> عبد الصمد</h3>
+                <p class="lead">Graphic Designer, UI developer, Informatic Engineer (in progress), Amateur Astronomer...</p>
+            </div>
         </div>
     </header>
     <main role="main" class="container">
-        
-        <h2>About Me</h2>
-        <p>
-            I am a Graphic Designer graduated with honors from Universidad Nacional de Colombia (2004).
-            <br>
-            Former UX-UI Designer and Flash AS3 developer,
-            and since 2013 I'm working as a Front-end Developer in Zemoga ((JS, React, Angular, VueJS...).<br>
-            I love reading, astronomy, astrophysics, maths, piano, Bach...
-        </p>
+        <p>Working on my page... ^__^</p>
+        <article>
+            <h2>About Me</h2>
+            <p>
+                I am a Graphic Designer graduated with honors from Universidad Nacional de Colombia (2004). Former UX-UI Designer and Flash AS3 developer until 2013. Ever since, I've been working as a FE Developer in Zemoga, with technologies like Node, React, Next, Angular, VueJS...<br>
+                Currently, I'm studying Informatic Engineering in Universidad Santo Tomás. <br>
+                I love reading, astronomy, astrophysics, maths, piano, Bach...
+            </p>
+        </article>
 
-        <h2>Achievements & Certificates</h2>
-        <ul>
-            <li>
-                <strong>2009</strong> <br>
-                Shortlist Cannes Lions / Innovation Design<br>
-                Wunderman Calendar 2008
-            </li>
-            <li><strong>2008</strong> <br>
-                First Place Calendar Design Wunderman Contest <br>
-                Wunderman Colombia
-            </li>
-            <li>
-                <strong>2005</strong> <br>
-                Shortlist Ojo de Iberoamérica, Simple Banner <br>
-                GSP Colombia
-            <li><strong>2004</strong> <br>
-                Meritorious Work Degree, <br>
-                Universidad Nacional de Colombia
-            </li>
-            <li>
-                <strong>2003</strong> <br>
-                First Place / Photography Contest, 45 years <br>
-                Colsubsidio
-            </li>
-            <li>
-                <strong>1998</strong> <br>
-                Finalist, National Math Olympics,
-                Universidad Antonio Nariño
-            </li>
-        </ul>
+        <article>
+            <h2>Recent Works</h2>
+            <ul class="list-unstyled">
+                <li>
+                    <strong>Cone Denim Website</strong> <span class="badge badge-info">New</span> <br>
+                    <a href="https://www.conedenim.com/" target="_blank">www.conedenim.com</a><br>
+                    Front End Development (VueJS, NuxtJS, StyledComponents, NodeJS) <br>
+                    Zemoga <br>
+                    2019
+                </li>
+                <li>
+                    <strong>LaNariz.com Website</strong> <br>
+                    <a href="https://www.lanariz.com/" target="_blank">www.lanariz.com</a><br>
+                    Front End Development (CSS, JS, Wordpress, PHP -not too much...-)<br>
+                    2019 
+                </li>
+                <li>
+                    <strong>ASASAC Brand Logo Design</strong> <br>
+                    <a href="https://www.behance.net/gallery/57320685/ASASAC-Logo-2018" target="_blank">See Behance project</a><br>
+                    2018<br>
+                </li>
+            </ul>
+        </article>
+
+        <article>
+            <h2>Articles and Conferences</h2>
+            <ul class="list-unstyled">
+                <li>
+                    <i><strong>"Astronomía y Mitología, miriada de estrellas: un caldo para la imaginación." <br>
+                    ["Astronomy and Mithology, myriad of stars: a source for imagination."]</i></strong> <br>
+                    Summa Cultural Magazine, 10 - 2009 <br>
+                    Konrad Lorentz - Fundación Universitaria <br>
+                    <a href="http://www.konradlorenz.edu.co/images/stories/suma_cultural/2009-2-No10/astronomia.pdf">Read Here (ESP)</a>
+                </li>
+                <li>
+                    <i><strong>"La ciencia y la astronomía en el mundo árabe. El pensamiento científico durante La Edad de Oro del Islam y su influencia en el Renacimiento europeo".<br>
+                    [Science and Astronomy in the arab world. Scientific thinking during the Golden Age of Islam, and its influence in the European Renaissance]</strong></i>. <br>
+                    Conferences dictated in: Planetario de Bogotá (Dec/2015), Festival de Astronomía de Villa de Leiva (Feb/2016), and Observatorio Universidad Sergio Arboleda (2018).
+                </li>
+            </ul>
+        </article>
+
+        <article>
+            <h2>Achievements & Certificates</h2>
+            <ul class="list-unstyled">
+                <li>
+                    <strong>2009</strong> <br>
+                    Shortlist Cannes Lions / Innovation Design<br>
+                    Wunderman Calendar 2008
+                </li>
+                <li><strong>2008</strong> <br>
+                    First Place Calendar Design Wunderman Contest <br>
+                    Wunderman Colombia
+                </li>
+                <li>
+                    <strong>2005</strong> <br>
+                    Shortlist Ojo de Iberoamérica, Simple Banner <br>
+                    GSP Colombia
+                <li><strong>2004</strong> <br>
+                    Meritorious Work Degree, <br>
+                    Universidad Nacional de Colombia
+                </li>
+                <li>
+                    <strong>2003</strong> <br>
+                    First Place / Photography Contest, 45 years <br>
+                    Colsubsidio
+                </li>
+                <li>
+                    <strong>1998</strong> <br>
+                    Finalist, National Math Olympics,
+                    Universidad Antonio Nariño
+                </li>
+            </ul>
+        </article>
     </main>
     <footer class="bg-dark py-5">
         <div class="container">
