@@ -27,12 +27,20 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700|Tajawal&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,600,600i|Tajawal&display=swap" rel="stylesheet">
 
     <!-- Custom CSS -->
     <style>
         body {
             font-family: 'Montserrat', sans-serif;
+        }
+
+        h2,h3,h4 {
+            font-weight: 300;
+        }
+
+        strong{
+            font-weight: 600;
         }
 
         article {
@@ -41,6 +49,10 @@
 
         li {
             margin-bottom: 20px;
+        }
+
+        a {
+            color: crimson;
         }
 
         .jumbotron {
@@ -63,6 +75,10 @@
             width: 150px;
         }
 
+        .badge-info{
+            background-color:#6975b9;
+        }
+
         .arabic {
             font-family: 'Tajawal', sans-serif;
         }
@@ -77,61 +93,133 @@
                 Hi. I am
                 <h1 class="display-4"><span>Aiman</span> Abdel-Samad</h1>
                 <h3 class="display-4 arabic"><span>ايمن</span> عبد الصمد</h3>
-                <p class="lead">Graphic Designer, UI developer, Informatic Engineer (in progress), Amateur Astronomer...</p>
+                <p class="lead">Graphic Designer, Informatic Engineer (in progress), Front-end developer, Amateur Astronomer...</p>
             </div>
         </div>
     </header>
     <main role="main" class="container">
         <p>Working on my page... ^__^</p>
-        <article>
-            <h2>About Me</h2>
-            <p>
-                I am a Graphic Designer graduated with honors from Universidad Nacional de Colombia (2004). Former UX-UI Designer and Flash AS3 developer until 2013. Ever since, I've been working as a FE Developer in Zemoga, with technologies like Node, React, Next, Angular, VueJS...<br>
-                Currently, I'm studying Informatic Engineering in Universidad Santo Tomás. <br>
-                I love reading, astronomy, astrophysics, maths, piano, Bach...
-            </p>
+        <article class="row">
+            <div class="col-12 col-md-9">
+                <h2>About Me</h2>
+                <p>
+                    I am a Graphic Designer graduated with honors from Universidad Nacional de Colombia (2004). Former UX-UI Designer and Flash AS3 developer until 2013. Ever since, I've been working as a FE Developer in Zemoga, with technologies like NodeJS, React, Next, Angular, VueJS...<br>
+                    Currently, I'm studying Informatic Engineering in Universidad Santo Tomás. <br>
+                    I love reading, astronomy, astrophysics, maths, piano, Bach...
+                </p>
+            </div>
         </article>
 
         <article>
-            <h2>Recent Works</h2>
+                <h2>Education</h2>
+                <ul class="list-unstyled">
+                    <li>
+                        <strong>Universidad Santo Tomás de Aquino</strong><br>
+                        Informatic Engineering <span class="badge badge-info">In progress...</span><br>
+                        2019 - current <br>
+                    </li>
+                    <li>
+                        <strong>Universidad Nacional de Colombia</strong> <br>
+                        Professional in Graphic Design, Graduated with honors.<br>
+                        1999 - 2004 <br>
+                    </li>
+                    <li>
+                        <strong>Liceo Universidad Católica de Colombia</strong> <br>
+                        Bachelor's degree in Philosophy and Letters<br>
+                        1990 - 1998<br>
+                    </li>
+                </ul>
+            </article>
+
+        <article class="row">
+            <div class="col-12 col-md-8">
+                <h2>Recent Works</h2>
+                <ul class="list-unstyled">
+                    <li>
+                        <strong>Cone Denim</strong> <span class="badge badge-info">New</span> <br>
+                        Front End Development (NodeJS, VueJS, NuxtJS, StyledComponents)<br>
+                        <a href="https://www.conedenim.com/" target="_blank">conedenim.com</a><br>
+                        Zemoga <br>
+                        2019
+                    </li>
+                    <li>
+                        <strong>LaNariz.com</strong> <span class="badge badge-info">New</span> <br>
+                        Front-end development (CSS, JS, Wordpress, PHP)<br>
+                        <a href="https://www.lanariz.com/" target="_blank">lanariz.com</a><br>
+                        2019 
+                    </li>
+                    <li>
+                        <strong>ASASAC (Astronomy Asociation of Colombia)</strong> <br>
+                        Branding (Logo design and its applications)<br>
+                        <a href="https://www.behance.net/gallery/57320685/ASASAC-Logo-2018" target="_blank">See Behance project</a><br>
+                        2018<br>
+                    </li>
+                    <li>
+                        <strong>Servifull SAS Website</strong><br>
+                        Website re design and Wordpress development.<br>
+                        <a href="http://servifullsas.com/">servifullsas.com</a><br>
+                        2017
+                    </li>
+                    <li>
+                        <strong>Morus Design</strong><br>
+                        Front-end development<br>
+                        <a href="http://servifullsas.com/">morusdesign.com</a><br>
+                        2017
+                    </li>
+                </ul>
+            </div>
+        </article>
+
+        <article>
+            <h2>Work Experience</h2>
             <ul class="list-unstyled">
                 <li>
-                    <strong>Cone Denim Website</strong> <span class="badge badge-info">New</span> <br>
-                    <a href="https://www.conedenim.com/" target="_blank">www.conedenim.com</a><br>
-                    Front End Development (VueJS, NuxtJS, StyledComponents, NodeJS) <br>
-                    Zemoga <br>
-                    2019
+                    <strong>Zemoga Inc.</strong> <br>
+                    UI / Front-end developer <br>
+                    <a href="https://www.zemoga.com/" target="_blank">zemoga.com</a><br>
+                    2013 - current <br>
                 </li>
                 <li>
-                    <strong>LaNariz.com Website</strong> <br>
-                    <a href="https://www.lanariz.com/" target="_blank">www.lanariz.com</a><br>
-                    Front End Development (CSS, JS, Wordpress, PHP -not too much...-)<br>
-                    2019 
+                    <strong>BRM</strong> <br>
+                    Design Leader, Front-end developer (Flash AS3, HTML5, CSS)<br>
+                    <a href="https://www.brm.com.co/" target="_blank">brm.com.co</a><br>
+                    2013 - 2010 <br>
                 </li>
                 <li>
-                    <strong>ASASAC Brand Logo Design</strong> <br>
-                    <a href="https://www.behance.net/gallery/57320685/ASASAC-Logo-2018" target="_blank">See Behance project</a><br>
-                    2018<br>
+                    <strong>BRM-Wunderman</strong> <br>
+                    Graphic Designer, Flash AS2/AS3 developer)<br>
+                    2010 - 2006 <br>
+                </li>
+                <li>
+                    <strong>Ideactividad</strong><br>
+                    Graphic Designer<br>
+                    2006<br>
+                </li>
+                <li>
+                    <strong>GSP Colombia</strong><br>
+                    Graphic Designer<br>
+                    2004-2005<br>
                 </li>
             </ul>
         </article>
 
-        <article>
-            <h2>Articles and Conferences</h2>
-            <ul class="list-unstyled">
-                <li>
-                    <i><strong>"Astronomía y Mitología, miriada de estrellas: un caldo para la imaginación." <br>
-                    ["Astronomy and Mithology, myriad of stars: a source for imagination."]</i></strong> <br>
-                    Summa Cultural Magazine, 10 - 2009 <br>
-                    Konrad Lorentz - Fundación Universitaria <br>
-                    <a href="http://www.konradlorenz.edu.co/images/stories/suma_cultural/2009-2-No10/astronomia.pdf">Read Here (ESP)</a>
-                </li>
-                <li>
-                    <i><strong>"La ciencia y la astronomía en el mundo árabe. El pensamiento científico durante La Edad de Oro del Islam y su influencia en el Renacimiento europeo".<br>
-                    [Science and Astronomy in the arab world. Scientific thinking during the Golden Age of Islam, and its influence in the European Renaissance]</strong></i>. <br>
-                    Conferences dictated in: Planetario de Bogotá (Dec/2015), Festival de Astronomía de Villa de Leiva (Feb/2016), and Observatorio Universidad Sergio Arboleda (2018).
-                </li>
-            </ul>
+        <article class="row">
+            <div class="col-12 col-md-9">
+                <h2>Articles and Conferences</h2>
+                <ul class="list-unstyled">
+                    <li>
+                        <i><strong>"Astronomía y Mitología, miriada de estrellas: un caldo para la imaginación." <br>
+                        ["Astronomy and Mithology, myriad of stars: a source for imagination."]</i></strong> <br>
+                        Article published in <i>Summa Cultural</i>, Magazine from the Konrad Lorentz University<br>
+                        Oct/2009 <br>
+                        <a href="http://www.konradlorenz.edu.co/images/stories/suma_cultural/2009-2-No10/astronomia.pdf">Read Here (ESP)</a>
+                    </li>
+                    <li>
+                        <i><strong>"La ciencia y la astronomía en el mundo árabe. El pensamiento científico durante La Edad de Oro del Islam y su influencia en el Renacimiento europeo". ["Science and Astronomy in the arab world. Scientific thinking during the Golden Age of Islam, and its influence in the European Renaissance"]</strong></i>. <br>
+                        Conference dictated in Planetario de Bogotá (Dec/2015), Festival de Astronomía de Villa de Leiva (Feb/2016), and Observatorio Universidad Sergio Arboleda (2018).
+                    </li>
+                </ul>
+            </div>
         </article>
 
         <article>
@@ -174,7 +262,7 @@
                 <div class="col">
                     <address class="text-light">
                         <strong>Bogotá, Colombia</strong><br>
-                        <abbr title="Email">E:</abbr> <a href="mailto:aimanizales@gmail.com" target="_blank">aimanizales@gmail.com</a>
+                        <a href="mailto:aimanizales@gmail.com" target="_blank">aimanizales@gmail.com</a>
                     </address>
                 </div>
                 <div class="col">
@@ -185,7 +273,7 @@
             </div>
             <div class="row">
                 <div class="col text-light">
-                    2019
+                    All rights reserved - 2019
                 </div>
             </div>
         </div>
