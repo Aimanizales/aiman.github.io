@@ -28,7 +28,7 @@ i.fab {
 }
 
 .jumbotron {
-    background-image: url(images/work_low.jpg);
+    background-image: url(../images/work.jpg);
     background-size: cover;
 }
 
@@ -36,6 +36,7 @@ i.fab {
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
     padding: 20px;
+    backdrop-filter: blur(2px);
 }
 
 .jumbotron span {
