@@ -29,23 +29,23 @@ li {
 }
 
 a {
-    color: rgb(176, 61, 84);
+    color: rgb(158, 103, 103);
 }
 
 a:hover {
     color: #cfcfcf;
-    background: rgb(155, 77, 68);
+    background-color: rgb(86, 75, 75);
     text-decoration: none;
 }
 
 ::-moz-selection { /* Code for Firefox */
     color: #cfcfcf;
-    background: rgb(155, 77, 68);
+    background-color: rgb(86, 75, 75);
 }
 
 ::selection {
     color: #cfcfcf;
-    background: rgb(155, 77, 68);
+    background-color: rgb(86, 75, 75);
 }
 
 i.fab {
@@ -81,7 +81,7 @@ i.fab {
 }
 
 .badge-info{
-    background-color:#6975b9;
+    background-color: rgb(158, 103, 103);
     color: #cfcfcf;
 }
 
